@@ -1,4 +1,4 @@
-ruby '2.4.0'
+ruby '2.3.1'
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
@@ -40,7 +40,9 @@ gem 'turbolinks', '~> 5'
 gem 'omniauth'
 gem 'omniauth-github'
 
-
+# File uploading
+gem "refile", github: "gstark/refile", branch: "updates-for-rails-5", require: "refile/rails"
+gem "refile-postgres"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

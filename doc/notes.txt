@@ -1,10 +1,14 @@
 restaurant Attributes
-  - Type of food :string [1]
+  - Cuisine :string [1]
   - Location/address :string [1]
+    - REQUIRED
   - Hours of operation :text [1 - text field]
+    - REQUIRED
   - Menu [pdf upload] :string (refile-style)
   - Name :string
+    - REQUIRED
   - Phone number :string  [1]
+    - REQUIRED
   - Website link :string [1]
   - Dollar sign value of expense level ($$ vs $$$$) :integer
 
@@ -22,3 +26,15 @@ User
 Pictures
   - actual picture
   - belong to restaurant
+
+Features
+  - Login/Logout
+  - Require Login to Vote/Create/Edit/Delete Restaurants (Authentication/Auth)
+  - Add Voting
+  - Cuisine As Drop Down
+  - Price As Drop Down
+  - Search/Random select based on preferences (cuisine & price)
+  - Add pagination
+  - Google Maps
+  - Use Bootstrap Theme
+  
