@@ -1,0 +1,24 @@
+restaurant Attributes
+  - Type of food :string [1]
+  - Location/address :string [1]
+  - Hours of operation :text [1 - text field]
+  - Menu [pdf upload] :string (refile-style)
+  - Name :string
+  - Phone number :string  [1]
+  - Website link :string [1]
+  - Dollar sign value of expense level ($$ vs $$$$) :integer
+
+  - has many votes
+  - has many pictures
+
+Voting/Review
+  - Belong to Restaurant
+  - Belong to User
+
+User
+  - omni-auth
+  - have many votes
+
+Pictures
+  - actual picture
+  - belong to restaurant
