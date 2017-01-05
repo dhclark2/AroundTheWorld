@@ -31,10 +31,9 @@ Features
   - Login/Logout
   - Require Login to Vote/Create/Edit/Delete Restaurants (Authentication/Auth)
   - Add Voting
-  - Cuisine As Drop Down
-  - Price As Drop Down
+  - ✅ Cuisine As Drop Down
+  - ✅ Price As Drop Down
   - Search/Random select based on preferences (cuisine & price)
   - Add pagination
   - Google Maps
   - Use Bootstrap Theme
-  

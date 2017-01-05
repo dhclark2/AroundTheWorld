@@ -33,11 +33,11 @@
   .form-group
     = f.label :price, class: 'col-sm-2 control-label'
     .col-sm-10
-      = f.number_field :price, class: 'form-control'
+      = f.select :price, options_for_select(Restaurant::PRICES, @restaurant.price), class: 'form-control'
   .form-group
     = f.label :cuisine, class: 'col-sm-2 control-label'
     .col-sm-10
-      = f.text_field :cuisine, class: 'form-control'
+      = f.select :cuisine, options_for_select(Restaurant::CUISINES, @restaurant.cuisine), class: 'form-control'
   .form-group
     = f.label :menu, class: 'col-sm-2 control-label'
     .col-sm-10

@@ -19,7 +19,7 @@
   %dt Hours:
   %dd= @restaurant.hours
   %dt Price:
-  %dd= @restaurant.price
+  %dd= price_as_dollar_signs(@restaurant.price)
   %dt Cuisine:
   %dd= @restaurant.cuisine
   %dt Menu:
