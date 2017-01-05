@@ -29,8 +29,9 @@ Pictures
 
 Features
   - ✅ Login/Logout
-  - Require Login to Vote/Create/Edit/Delete Restaurants (Authentication/Auth)
+  - Require Login to Vote
   - Add Voting
+  - ✅ Require login to Create/Edit/Delete Restaurants (Authentication/Auth)
   - ✅ Cuisine As Drop Down
   - ✅ Price As Drop Down
   - Search/Random select based on preferences (cuisine & price)
