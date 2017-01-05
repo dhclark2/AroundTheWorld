@@ -28,7 +28,7 @@ Pictures
   - belong to restaurant
 
 Features
-  - Login/Logout
+  - ✅ Login/Logout
   - Require Login to Vote/Create/Edit/Delete Restaurants (Authentication/Auth)
   - Add Voting
   - ✅ Cuisine As Drop Down
